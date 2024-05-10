@@ -1,0 +1,41 @@
+.hotel-image {
+  width: 100%; /* Adjust image width to fit container */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+}
+
+.hotels-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.hotels-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  margin: 0 20px 50px 20px; /* Adjust margin for mobile size */
+}
+
+.hotels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .hotels-container {
+    margin: 0 150px 70px 150px; /* Adjust margin for laptop size */
+  }
+}
+
+@media (min-width: 1024px) {
+  .hotels-container {
+    margin: 0 auto 100px auto; /* Adjust margin for larger screens */
+    max-width: 1024px; /* Limit container width for larger screens */
+  }
+}
