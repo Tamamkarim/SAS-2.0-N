@@ -17,14 +17,14 @@ const Home = () => {
       <CheapestHotels />
       <div className="flex flex-col justify-center items-center text-white gap-4 text-center" >
         <div className="text-2xl">Featured Hotels</div>
-        <div className="text-5xl">Discover Your Next Adventure</div>
-        <div className="text-lg text-gray-400">Browse through our curated selection of top-notch accommodations</div>
+        <div className="text-5xl flex jusify-center m-4">Discover Your Next Adventure</div>
+        <div className="text-lg text-gray-400 m-4">Browse through our curated selection of top-notch accommodations</div>
       </div>
       <Featured />
       <div className="flex flex-col justify-center items-center text-white gap-4 text-center" >
         <div className="text-2xl">Top Rated Hotels</div>
         <div className="text-5xl">Explore The Best</div>
-        <div className="text-lg text-gray-400">Check out the highest rated accommodations by our users</div>
+        <div className="text-lg text-gray-400 m-4">Check out the highest rated accommodations by our users</div>
       </div>
       <TopRated />
     </div>
